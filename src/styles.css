@@ -1,0 +1,24 @@
+:root {
+  --background: #171a4a;
+  --primary: #2f2c79;
+  --secondary: #ff9800;
+  --secondary-hover-dark: #835004;
+  --tertiary: #fed966;
+  --text: #fff;
+  --danger: #dc4c64;
+  --gray: #ccc;
+  --gray-dark: #999;
+  --black: #000;
+  --blue: #007bff;
+
+  body {
+    min-height: 100dvh;
+    background-color: var(--background);
+    background-image: linear-gradient(#171a4af6, #171a4af6, #171a4af6),
+      url("assets/Images/images.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center;
+  }
+}

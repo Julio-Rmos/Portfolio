@@ -1,0 +1,324 @@
+.txt-tecnology {
+  color: white;
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+  margin-left: 4%;
+  margin-bottom: auto;
+  margin-top: 2.5em;
+  opacity: 0;
+  transform: translateY(-100%);
+  animation: slideInText 1.5s ease forwards;
+  filter: drop-shadow(0 5px 5px black);
+}
+@media only screen and (max-width: 450px) {
+  .txt-tecnology {
+    margin-top: 0.4em;
+    margin-bottom: 2.5em;
+  }
+}
+
+@keyframes slideInText {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.container {
+  max-width: 990px;
+  margin: 0 auto;
+  margin-bottom: 16em;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    margin-bottom: 5em;
+  }
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 4em;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+  filter: drop-shadow(0 5px 5px black);
+}
+@media only screen and (max-width: 768px) {
+  .icons {
+    gap: 1em;
+    grid-template-columns: repeat(auto-fill, minmax(124px, 1fr));
+  }
+}
+
+.icon-angular {
+  width: 14em;
+  height: 14em;
+  animation: scale 2.5s;
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.icon-boots {
+  width: 9.5em;
+  height: 9.5em;
+  animation: scale 2.5s;
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.icon-c {
+  width: 11em;
+  height: 11em;
+  animation: scale 2.5s;
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.icon-sql {
+  width: 8em;
+  height: 10em;
+  animation: scale 2.5s;
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.icon-git {
+  width: 12em;
+  height: 12em;
+  animation: scale 2.5s;
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.icon-node {
+  width: 10em;
+  height: 10em;
+  animation: scale 2.5s;
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.icon-postman {
+  width: 10em;
+  height: 10em;
+  animation: scale 2.5s;
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.icon-ts {
+  width: 10em;
+  height: 10em;
+  animation: scale 2.5s;
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.icon-js {
+  width: 9em;
+  height: 9em;
+  animation: scale 2.5s;
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.icon-css {
+  width: 10em;
+  height: 10em;
+  animation: scale 2.5s;
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.icon-html {
+  width: 10em;
+  height: 10em;
+  animation: scale 2.5s;
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .icon-angular {
+    width: 10em;
+    height: 10em;
+  }
+
+  .icon-boots {
+    width: 6.5em;
+    height: 6.5em;
+  }
+
+  .icon-c {
+    width: 8em;
+    height: 8em;
+  }
+
+  .icon-sql {
+    width: 6em;
+    height: 7.5em;
+  }
+
+  .icon-git {
+    width: 8.5em;
+    height: 8.5em;
+  }
+
+  .icon-node,
+  .icon-postman,
+  .icon-ts,
+  .icon-css,
+  .icon-html {
+    width: 7.5em;
+    height: 7.5em;
+  }
+
+  .icon-js {
+    width: 6.5em;
+    height: 6.5em;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .icon-angular {
+    width: 6em;
+    height: 6em;
+  }
+
+  .icon-boots {
+    width: 4.5em;
+    height: 4.5em;
+  }
+
+  .icon-c {
+    width: 5em;
+    height: 5em;
+  }
+
+  .icon-sql {
+    width: 3em;
+    height: 4.5em;
+  }
+
+  .icon-git {
+    width: 5.5em;
+    height: 5.5em;
+  }
+
+  .icon-node,
+  .icon-postman,
+  .icon-ts,
+  .icon-css,
+  .icon-html {
+    width: 4.5em;
+    height: 4.5em;
+  }
+
+  .icon-js {
+    width: 3.5em;
+    height: 3.5em;
+  }
+}
+
+.txt-tanks {
+  color: white;
+  font-size: 4em;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 4em;
+  text-align: center;
+  animation: jump 0.5s infinite alternate;
+  font-family: "Roboto", sans-serif;
+  filter: drop-shadow(0 5px 5px black);
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .txt-tanks {
+    font-size: 3em;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .txt-tanks {
+    font-size: 1.9em;
+    margin-bottom: 2em;
+  }
+}
